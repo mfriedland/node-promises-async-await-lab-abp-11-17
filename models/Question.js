@@ -28,7 +28,7 @@ class Question {
 
   // FIXME: Implement Promise
   static Find(id){
-    return new Promise(function(resolve(){
+    return new Promise(function(resolve){
       console.log(`Waiting for Question ${id} to load...`)
       setTimeout(function(){
         const question = Question._All[id-1] // Do Not Edit
@@ -36,7 +36,7 @@ class Question {
 
         resolve(question)
       }, 1500)
-    }))
+    })
   }
 
   // FIXME: Implement async / await
