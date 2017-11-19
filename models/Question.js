@@ -36,9 +36,7 @@ class Question {
 
         return question
       }, 1500)
-    })
-      
-
+    }))
   }
 
   // FIXME: Implement async / await
